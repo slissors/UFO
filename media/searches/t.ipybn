@@ -1,0 +1,11 @@
+<ng-include src="'/components/pickers/hierarchy-picker-desktop.html'" ng-if="$root.globals.isDesktopMode"><div class="hierarchy-select ng-pristine ng-valid" ng-click="focus()" track="['Explore', trackName, 'click']" ng-style="{'visibility': hasFocus ? 'hidden' : 'visible'}" role="button" tabindex="0" style="visibility: visible;">
+  <div class="_md-select-value _md-select-placeholder">
+    <span>United States</span>
+    <span class="_md-select-icon" aria-hidden="true"></span>
+  </div>
+</div>
+
+<div class="hierarchy-autocomplete ng-hide" ng-show="hasFocus" aria-hidden="true" style="">
+  <md-autocomplete md-no-cache="true" md-search-text="ctrl.searchQuery" md-items="node in ctrl.getResults(ctrl.searchQuery)" md-selected-item-change="node &amp;&amp; (ctrl.setSelectedNode(node.id) || blur())" md-item-text="node.name" md-min-length="0" tabindex="-1">        <md-autocomplete-wrap layout="row" ng-class="{ 'md-whiteframe-z1': !floatingLabel, 'md-menu-showing': !$mdAutocompleteCtrl.hidden }" role="listbox" class="layout-row md-whiteframe-z1" style="">                      <!----><input flex="" type="search" id="input-8" name="" ng-if="!floatingLabel" autocomplete="off" ng-required="$mdAutocompleteCtrl.isRequired" ng-disabled="$mdAutocompleteCtrl.isDisabled" ng-readonly="$mdAutocompleteCtrl.isReadonly" ng-model="$mdAutocompleteCtrl.scope.searchText" ng-keydown="$mdAutocompleteCtrl.keydown($event)" ng-blur="$mdAutocompleteCtrl.blur()" ng-focus="$mdAutocompleteCtrl.focus()" placeholder="" aria-owns="ul-8" aria-label="" aria-autocomplete="list" aria-haspopup="true" aria-activedescendant="" aria-expanded="false" class="ng-valid ng-valid-required flex ng-touched ng-dirty ng-empty" aria-invalid="false" style=""><!---->            <!---->                          <!---->                  </md-autocomplete-wrap>        <aria-status class="_md-visually-hidden" role="status" aria-live="assertive">          <!----><!----><p ng-repeat="message in $mdAutocompleteCtrl.messages track by $index" ng-if="message" class="" style="">There are 251 matches available.</p><!----><!----><!----><!---->        </aria-status></md-autocomplete>
+</div>
+</ng-include>
