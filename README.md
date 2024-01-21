@@ -12,7 +12,7 @@ A report will be made for each factor explored.
 
 
 ![image](https://github.com/slissors/UFO/assets/93544397/a02d2218-7d60-48e4-b7a7-572dd8d4204c)
-<video src="https://www.youtube.com/watch?v=T69yo1YTFVw" width="300" />
+![Untitled video - Made with Clipchamp](https://github.com/slissors/UFO/assets/93544397/22833bf5-4f3a-4873-8932-f3e63e8feb5e)
 
 
 Null Hypothesis: Daily gross of sci-fi films has no effect on UFO sightings from 2009-2022
