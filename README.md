@@ -12,8 +12,18 @@ A report will be made for each factor explored.
 
 
 ![image](https://github.com/slissors/UFO/assets/93544397/a02d2218-7d60-48e4-b7a7-572dd8d4204c)
+
+<div style="position:relative;width:fit-content;height:fit-content;">
+            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/6B4QJ90SAJp?utm_source=embed&utm_medium=embed&utm_campaign=watch">
+                <img loading="lazy" style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
+            </a>
+            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/6B4QJ90SAJp/embed" width="640" height="360"></iframe>
+        </div>
+
+
 Null Hypothesis: Daily gross of sci-fi films has no effect on UFO sightings from 2009-2022
 Alternative hypothesis: Daily gross of sci-fi films has a positive effect on UFO sightings from 2009-2022
+
 
 
 
@@ -34,3 +44,6 @@ The website does not prohibit automated data retrieval, and no sensitive or prop
 **DATA ANALYSIS**
 Used a cross-correlation function, from numpy, to calculate the cross-correlation coefficient for the time lag between daily gross and daily UFO sightings.
 [Working to fix the code]
+This is what I currently have plotted, it is showing a positive relationship with each film.
+![image](https://github.com/slissors/UFO/assets/93544397/de7ced9d-40e4-4cd5-a922-44fbd4fab764)
+
